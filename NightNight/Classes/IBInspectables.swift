@@ -25,3 +25,18 @@ public extension UIView {
         }
     }*/
 }
+
+public extension UILabel {
+    @IBInspectable public var nightTextColor: UIColor? {
+        get {
+            return objc_getAssociatedObject(self, &NightKeys.textColor) as? UIColor
+        }
+        
+        set {
+            objc_setAssociatedObject(self, &NightKeys.textColor, newValue, .OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+            
+            let textColor = self.textColor ?? .white
+            mixedTextColor = MixedColor(normal: textColor, night: newValue ?? textColor)
+        }
+    }
+}
