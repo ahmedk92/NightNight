@@ -35,13 +35,32 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="fdgfdgfdg" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Iv-Lw-UK0" userLabel="g">
+                                        <rect key="frame" x="8" y="90" width="88" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="88" id="Gfx-9h-7Kk"/>
+                                        </constraints>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="nightTextColor">
+                                                <color key="value" red="0.98431372549999996" green="0.8980392157" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="nightBackgroundColor">
+                                                <color key="value" red="0.27843138579999999" green="0.40000000600000002" blue="0.59607845540000004" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
                                 </subviews>
                                 <color key="backgroundColor" red="0.98431372549999996" green="0.8980392157" blue="0.50196078430000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="2aK-ph-NiR"/>
                                     <constraint firstItem="7i5-9K-JXO" firstAttribute="centerX" secondItem="QGc-hN-c6t" secondAttribute="centerX" id="FMn-Rn-rGG"/>
                                     <constraint firstAttribute="width" constant="240" id="I7a-tm-oZ8"/>
+                                    <constraint firstItem="6Iv-Lw-UK0" firstAttribute="leading" secondItem="QGc-hN-c6t" secondAttribute="leading" constant="8" id="PJB-n8-6NG"/>
                                     <constraint firstItem="7i5-9K-JXO" firstAttribute="centerY" secondItem="QGc-hN-c6t" secondAttribute="centerY" id="ySJ-Gm-sa4"/>
+                                    <constraint firstAttribute="bottom" secondItem="6Iv-Lw-UK0" secondAttribute="bottom" constant="8" id="ylr-ex-lMJ"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="nightBackgroundColor">
